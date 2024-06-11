@@ -1,0 +1,214 @@
+.body{
+    background-size: cover;
+}
+.onea{
+    position: absolute;
+    left: 340px;
+    top: 13px;
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    
+}
+.oneb{
+    position: absolute;
+    top: -9px;
+    left: 180px;
+   
+}
+
+.one{
+    border-radius: 0px;
+    background-color:  rgb(222, 222, 222) ;
+    margin: auto;
+    position: absolute;
+    height: 70px;
+    top: 0px;
+    left: 0px;
+    width: 100%; 
+
+}
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    position: absolute;
+    top: 11%;
+    left: -300px;
+
+
+}
+
+
+nav ul{
+    list-style: none;
+    width: 100%;
+    text-align: right;
+    padding-right: 40px;
+   
+
+}
+nav ul li{
+    display: inline-block;
+    margin: 8px 19px;
+    
+}
+nav ul li a{
+    color:  rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    
+    
+}
+nav ul li a:hover{
+    color: #0762d9;
+    
+}
+
+    
+
+    .btn1{
+        position: absolute;
+        left: 84%;
+        top: 12.5%;
+        padding: auto;
+        width: 90px;
+        height: 40px;
+        background-color:  rgb(233, 8, 8) ;
+        border-radius: 12px;
+        align-items: center;
+        cursor: pointer;
+        display: inline-block;
+        border: none;
+        outline: 0;
+        box-shadow: 1px 3px 5px rgb(0, 0, 0, 0.5);
+        
+        }
+        .btn1:hover{
+            background-color: rgb(255, 255, 255);
+        }
+        .btn1 p{
+            color: rgb(255, 255, 255);
+            font-weight: bold; 
+            font-size: 15px;
+            position: relative;
+            top: -6%;
+            left: 0%;   
+        } 
+        .btn1 p:hover{
+            color: black;
+        }
+        
+.h_one{
+        position: absolute;
+        left: 18%;
+        top: 18%;
+        font-size: 70px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+ .h_two{
+    position: absolute;
+    left: 30%;
+    top: 29%;
+    font-size: 70px;
+    font-family: 'Times New Roman', Times, serif;
+ }  
+ .two{
+    border-radius: 0px;
+    background: linear-gradient(to top,rgba(0, 0, 0, 1)50%,rgba(0, 0, 0, 1)50%);
+    margin: auto;
+    position: absolute;
+    height: 70px;
+    top: 128%;
+    left: 0px;
+    width: 100%; 
+ }
+ .color_bar{
+    width: 77%;
+    height: 400px;
+    position: absolute;
+    top: 60%;
+    left: 11.6%;
+    background-image:linear-gradient(to top,#CCCBCB 20px, #2C47D8);
+    border-radius: 20px;
+}
+
+.btn01{
+    position: absolute;
+    left:20%;
+    top: 68%;
+    padding: auto;
+    width: 350px;
+    height: 100px;
+    background-color:  rgb(175, 195, 255) ;
+    border-radius: 15px;
+    align-items: center;
+    cursor: pointer;
+    display: inline-block;
+    border: none;
+    outline: 0;
+    box-shadow: 1px 3px 5px rgb(0, 0, 0, 0.5);
+    font-size: 23px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.btn02{
+    position: absolute;
+    left:57%;
+    top: 68%;
+    padding: auto;
+    width: 350px;
+    height: 100px;
+    background-color:  rgb(175, 195, 255) ;
+    border-radius: 15px;
+    align-items: center;
+    cursor: pointer;
+    display: inline-block;
+    border: none;
+    outline: 0;
+    box-shadow: 1px 3px 5px rgb(0, 0, 0, 0.5);
+    font-size: 23px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.btn03{
+    position: absolute;
+    left:20%;
+    top: 92%;
+    padding: auto;
+    width: 350px;
+    height: 100px;
+    background-color:  rgb(175, 195, 255) ;
+    border-radius: 15px;
+    align-items: center;
+    cursor: pointer;
+    display: inline-block;
+    border: none;
+    outline: 0;
+    box-shadow: 1px 3px 5px rgb(0, 0, 0, 0.5);
+    font-size: 23px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.btn04{
+    position: absolute;
+    left:57%;
+    top: 92%;
+    padding: auto;
+    width: 350px;
+    height: 100px;
+    background-color:  rgb(175, 195, 255) ;
+    border-radius: 15px;
+    align-items: center;
+    cursor: pointer;
+    display: inline-block;
+    border: none;
+    outline: 0;
+    box-shadow: 1px 3px 5px rgb(0, 0, 0, 0.5);
+    font-size: 23px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
