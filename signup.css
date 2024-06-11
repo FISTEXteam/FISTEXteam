@@ -1,0 +1,165 @@
+.body{
+    background-size: cover;
+}
+
+.one{
+    border-radius: 0px;
+    background-color:  rgb(222, 222, 222) ;
+    margin: auto;
+    position: absolute;
+    height: 70px;
+    top: 0px;
+    left: 0px;
+    width: 100%; 
+
+}
+.onea{
+    position: absolute;
+    left: 220px;
+    top: 13px;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+.oneb{
+    position: absolute;
+    top: -16px;
+    left: 60px;
+}
+.two{
+    border-radius: 0px;
+    background: linear-gradient(to top,rgba(0, 0, 0, 1)50%,rgba(0, 0, 0, 1)50%);
+    margin: auto;
+    position: absolute;
+    height: 70px;
+    top: 145%;
+    left: 0px;
+    width: 100%;  
+}
+.all{
+    width: 490px;
+    height: 650px;
+    background-color:  rgb(222, 222, 222) ;
+    border-radius: 15px;
+    position: absolute;
+    top: 20%;
+    left: 32%;
+    padding: 34px;
+    box-shadow: 0 8px 15px 0 rgba(0, 0, 0, 0.3), 0 8px 15px 0 rgba(0, 0, 0, 0.3); 
+    
+    animation-name: ame;
+    animation: ame 0.5s;
+
+}
+@keyframes ame{
+    0%{
+        opacity: 0;
+        transform: translateY(30px) scale(0.9);
+    }
+    100%{
+        opacity: 1;
+        transform:translateY(0px) scale(1);
+     } 
+
+}
+.all h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    
+}
+.form h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.form{
+    position: absolute;
+    top: 26%;
+}
+.email{
+    width: 488px;
+    height: 30px;
+    background-color:  rgb(255, 255, 255) ;
+    border-radius: 50px;
+    border: 0;
+    outline: 0;
+  
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+.pass{
+    width: 488px;
+    height: 30px;
+    background-color:  rgb(255, 255, 255) ;
+    border-radius: 50px;
+    border: 0;
+    outline: 0;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pass1{
+    width: 488px;
+    height: 30px;
+    background-color:  rgb(255, 255, 255) ;
+    border-radius: 50px;
+    border: 0;
+    outline: 0;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pass2{
+    width: 488px;
+    height: 30px;
+    background-color:  rgb(255, 255, 255) ;
+    border-radius: 50px;
+    border: 0;
+    outline: 0;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pass3{
+    width: 488px;
+    height: 30px;
+    background-color:  rgb(255, 255, 255) ;
+    border-radius: 50px;
+    border: 0;
+    outline: 0;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.slk1{
+    width: 80px;
+    height: 30px;
+    background-color:  rgb(67, 85, 225) ;
+    border-radius: 20px;
+    position: absolute;
+    top: 90%;
+    left: 60%;
+    border: none;
+    outline: 0;
+}
+.slk1:hover{
+    background-color: rgb(7, 39, 154);
+}
+.slk1 a{
+    color: aliceblue;
+    font-weight: bold;
+    
+} 
+
+.slk2{
+    width: 80px;
+    height: 30px;
+    background-color:  rgb(255, 255, 255) ;
+    border-radius: 20px;
+    position: absolute;
+    top: 90%;
+    left: 80.1%;
+    border: none;
+    outline: 0;
+}
+.slk2 a{
+    color: black;
+    font-weight: bold;
+} 
