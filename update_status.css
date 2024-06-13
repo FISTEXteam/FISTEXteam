@@ -1,0 +1,320 @@
+.body{
+    background-size: cover;
+}
+
+.one{
+    border-radius: 0px;
+    background-color:  rgb(222, 222, 222) ;
+    margin: auto;
+    position: absolute;
+    height: 70px;
+    top: 0px;
+    left: 0px;
+    width: 100%; 
+
+}
+
+.onea{
+    position: absolute;
+    left: 220px;
+    top: 13px;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+.oneb{
+    position: absolute;
+    top: -16px;
+    left: 60px;
+}
+.two{
+    border-radius: 0px;
+    background: linear-gradient(to top,rgba(0, 0, 0, 1)50%,rgba(0, 0, 0, 1)50%);
+    margin: auto;
+    position: absolute;
+    height: 70px;
+    top: 100%;
+    left: 0px;
+    width: 100%;  
+}
+.three{
+    border-radius: 0px;
+    background: linear-gradient(to top,rgb(29, 8, 218)50%,rgb(29, 8, 218)50%);
+    margin: auto;
+    position: absolute;
+    height: 40%;
+    top: 9.7%;
+    left: 0px;
+    width: 100%;
+}
+
+.four{
+    border-radius: 10px;
+    background: linear-gradient(to top,rgba(155, 145, 246, 0.453)50%,rgba(155, 145, 246, 0.453)50%);
+    margin: auto;
+    position: absolute;
+    height: 70%;
+    top: 20%;
+    left: 30px;
+    right:30px ;
+    width: 75%;
+}
+
+   
+    .btn1 p{
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        font-size: 15px;
+        position: relative;
+        top: -5%;
+        left: 0%; 
+    }
+    
+    .all{
+        width: 490px;
+        height: 450px;
+        background: linear-gradient(to top,rgba(155, 145, 246, 0.453)50%,rgba(155, 145, 246, 0.453)50%);
+        border-radius: 15px;
+        position: absolute;
+        top: 20%;
+        left: 30%;
+        padding: 34px;
+        box-shadow: 0 8px 15px 0 rgba(0, 0, 0, 0.3), 0 8px 15px 0 rgba(0, 0, 0, 0.3); 
+        
+        animation-name: ame;
+        animation: ame 0.5s;
+    
+    }
+    @keyframes ame{
+        0%{
+            opacity: 0;
+            transform: translateY(30px) scale(0.9);
+        }
+        100%{
+            opacity: 1;
+            transform:translateY(0px) scale(1);
+         } 
+    
+    }
+    
+    .form h3{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+    }
+    .form{
+        position: absolute;
+        top: 3%;
+    }
+    .email{
+        width: 488px;
+        height: 30px;
+        background-color:  rgb(255, 255, 255) ;
+        border-radius: 50px;
+        border: 0;
+        outline: 0;
+      
+        font-family: Arial, Helvetica, sans-serif;
+        
+        
+    }
+
+    .pass{
+        width: 488px;
+        height: 30px;
+        top: 2%;
+        background-color:  rgb(255, 255, 255) ;
+        border-radius: 50px;
+        border: 0;
+        outline: 0;
+        display: flex;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .pass1{
+        width: 488px;
+        height: 30px;
+        background-color:  rgb(255, 255, 255) ;
+        border-radius: 50px;
+        border: 0;
+        outline: 0;
+        display: flex;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .pass2{
+        width: 488px;
+        height: 30px;
+        background-color:  rgb(255, 255, 255) ;
+        border-radius: 50px;
+        border: 0;
+        outline: 0;
+        display: flex;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .pass3{
+        width: 488px;
+        height: 30px;
+        background-color:  rgb(255, 255, 255) ;
+        border-radius: 50px;
+        border: 0;
+        outline: 0;
+        display: flex;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .slk1{
+        width: 80px;
+        height: 30px;
+        background-color:  rgb(67, 85, 225) ;
+        border-radius: 20px;
+        position: absolute;
+        top: 90%;
+        left: 60%;
+        border: none;
+        outline: 0;
+    }
+    .slk1:hover{
+        background-color: rgb(7, 39, 154);
+    }
+    .slk1 a{
+        color: aliceblue;
+        font-weight: bold;
+        
+    } 
+    
+    .slk2{
+        width: 80px;
+        height: 30px;
+        background-color:  rgb(255, 255, 255) ;
+        border-radius: 20px;
+        position: absolute;
+        top: 90%;
+        left: 80.1%;
+        border: none;
+        outline: 0;
+    }
+    .slk2:hover{
+        background-color: rgb(255, 0, 0);
+    }
+    .slk2 a{
+        color: black;
+        font-weight: bold;
+    }
+    
+
+
+    .p_btn1{
+        position: absolute;
+        left: 7%;
+        top: 83%;
+    
+        width: 90px;
+        height: 40px;
+        background-color:  rgb(255, 254, 254) ;
+        border-radius: 12px;
+        align-items: center;
+        cursor: pointer;
+        display: inline-block;
+        border: none;
+        outline: 0;
+        box-shadow: 1px 3px 5px rgb(0, 0, 0, 0.5);
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        
+        }
+
+        .p_btn2{
+            position: absolute;
+            left: 25%;
+            top: 83%;
+        
+            width: 90px;
+            height: 40px;
+            background-color:  rgb(255, 254, 254) ;
+            border-radius: 12px;
+            align-items: center;
+            cursor: pointer;
+            display: inline-block;
+            border: none;
+            outline: 0;
+            box-shadow: 1px 3px 5px rgb(0, 0, 0, 0.5);
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            
+            }
+        
+
+
+
+
+
+
+
+
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    position: absolute;
+    top: 11%;
+    left: -300px;
+
+
+}
+
+
+nav ul{
+    list-style: none;
+    width: 100%;
+    text-align: right;
+    padding-right: 40px;
+   
+
+}
+nav ul li{
+    display: inline-block;
+    margin: 8px 19px;
+    
+}
+nav ul li a{
+    color:  rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    
+    
+}
+nav ul li a:hover{
+    color: #0762d9;
+    
+}
+
+.btn1{
+    position: absolute;
+    left: 79.5%;
+    top: 22%;
+
+    width: 90px;
+    height: 40px;
+    background-color:  rgb(255, 0, 0) ;
+    border-radius: 12px;
+    align-items: center;
+    cursor: pointer;
+    display: inline-block;
+    border: none;
+    outline: 0;
+    box-shadow: 1px 3px 5px rgb(0, 0, 0, 0.5);
+    
+    }
+    .btn1:hover{
+        background-color: rgb(255, 255, 255);
+    }
+    .btn1 p{
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        font-size: 15px;
+        position: relative;
+        top: -5%;
+        left: 0%; 
+    }
+    
+
+    
